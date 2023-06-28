@@ -1,0 +1,22 @@
+.gridCamilo {
+  display: grid;
+  grid-template-rows: repeat(12, 1fr);
+}
+
+.place {
+  padding: 0.5rem;
+  font-size: 1.3rem;
+}
+
+.place::placeholder {
+  color: #4a423e;
+}
+
+.backgroundP {
+  /* background-image: url("./assets/a.svg"); */
+  background-color: #9db06c;
+}
+
+.textB {
+  color: #adbaca;
+}
